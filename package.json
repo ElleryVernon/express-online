@@ -1,15 +1,14 @@
 {
-  "name": "express-online",
+  "name": "express-nodemon",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "npx nodemon app.js"
+    "start": "npx nodemon -e js, html app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "ElleryVernon",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.3"
   }
 }
